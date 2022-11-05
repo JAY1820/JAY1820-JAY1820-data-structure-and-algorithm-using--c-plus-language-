@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 
-	// cout<<"------check char is lowercse ,uppercase & numeric-----\n\n";
+	// cout<<"------Prog1) check char is lowercse ,uppercase & numeric-----\n\n";
 	/*
 		char ch;
 	   cin>>ch;
@@ -22,7 +22,7 @@ int main()
 	*/
 
 	/*
-			cout << "------print 1 to n number using while loop-------\n\n";
+			cout << "-----Prog2) print 1 to n number using while loop-------\n\n";
 			int n;
 			cin >> n;
 			int i = 0;
@@ -35,7 +35,7 @@ int main()
 		*/
 
 /*
-	cout << "------print 1 to n even number using while loop --------\n\n";
+	cout << "---- Prog3) print 1 to n even number using while loop --------\n\n";
 	int n, i = 2;
 
 	cout << "\nPlease Enter Maximum limit Value to print Even Numbers =  ";
@@ -51,7 +51,7 @@ int main()
 
 
 	/*
-	cout<< "-----sum 1 to n number using while loop------\n";
+	cout<< "--- Prog4) sum 1 to n number using while loop------\n";
 
 		int n, i = 1, sum = 0;
 		cout << "Enter number:" << endl;
@@ -67,7 +67,7 @@ int main()
 
 
 /*
-	cout<< "----- sum 1 to n even number------\n";
+	cout<< "---Prog5) sum 1 to n even number------\n";
 
 	int n;
 	int i = 2;
@@ -87,7 +87,7 @@ int main()
 		// sum program finsish 
 */
 
-cout<< "-----check no is prime or not------\n";
+cout<< "---- Prog6) check no is prime or not------\n";
 
 
 int n;
@@ -111,7 +111,7 @@ while (i<n)
 
 /*
 
-cout<< "-----ferenhit to celcius conversion------\n";
+cout<< "----Prog7) ferenhit to celcius conversion------\n";
 float c,f;
 cout<<"temperature in farenhit:"<<endl;
 cin>>f;
