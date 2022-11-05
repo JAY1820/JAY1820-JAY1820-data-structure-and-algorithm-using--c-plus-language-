@@ -35,7 +35,7 @@ int main()
 		*/
 
 /*
-	cout << "------while loopc 1 to n--------\n\n";
+	cout << "------while loopc 1 to n even numnber --------\n\n";
 	int n, i = 2;
 
 	cout << "\nPlease Enter Maximum limit Value to print Even Numbers =  ";
@@ -66,6 +66,7 @@ int main()
 	*/
 
 
+/*
 	cout<< "-----while loop sum 1 to n even number------\n";
 
 	int n;
@@ -83,8 +84,40 @@ int main()
 		
 	}
 		cout << "Sum of N even no. is " << sum << endl;
-	
+		// sum program finsish 
+*/
 
+cout<< "-----check no is prime or not------\n";
+
+
+int n;
+cin>> n;
+int i = 2;
+while (i<n)
+{
+	if (n%i==0)
+	{
+		cout<<"not prime for"<< i <<endl;
+
+	}
+	else{
+		cout<<"prime for"<< i <<endl;
+	}
+	i = i + 1;
+}
+
+
+
+
+/*
+cout<< "-----ferenhit to celcius conversion------\n";
+cout<< "-----ferenhit to celcius conversion------\n";
+float c,f;
+cout<<"temperature in farenhit:"<<endl;
+cin>>f;
+c = 5*(f-32)/9;
+cout<<"the value in celcius is"<<c<<"degree"<<endl;
+*/
 
 
 
