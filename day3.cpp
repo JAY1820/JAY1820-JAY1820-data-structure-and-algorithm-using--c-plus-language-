@@ -4,7 +4,7 @@ int main()
 {
 
 	// cout<<"------Prog1) check char is lowercse ,uppercase & numeric-----\n\n";
-	/*
+	
 		char ch;
 	   cin>>ch;
 		if(ch>='a' && ch<='z')
@@ -19,8 +19,9 @@ int main()
 		{
 			cout<<"This is numeric"<< endl;
 		}
-	*/
+	
 
+	
 	/*
 			cout << "-----Prog2) print 1 to n number using while loop-------\n\n";
 			int n;
@@ -87,6 +88,7 @@ int main()
 		// sum program finsish 
 */
 
+
 cout<< "---- Prog6) check no is prime or not------\n";
 
 
@@ -121,5 +123,5 @@ cout<<"the value in celcius is"<<c<<"degree"<<endl;
 
 
 
-	return 0;
+	return 1;
 }
