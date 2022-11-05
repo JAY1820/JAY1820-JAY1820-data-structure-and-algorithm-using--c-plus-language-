@@ -22,7 +22,7 @@ int main()
 	*/
 
 	/*
-			cout << "------while loopc 1 to n--------\n\n";
+			cout << "------print 1 to n number using while loop-------\n\n";
 			int n;
 			cin >> n;
 			int i = 0;
@@ -35,7 +35,7 @@ int main()
 		*/
 
 /*
-	cout << "------while loopc 1 to n even numnber --------\n\n";
+	cout << "------print 1 to n even number using while loop --------\n\n";
 	int n, i = 2;
 
 	cout << "\nPlease Enter Maximum limit Value to print Even Numbers =  ";
@@ -51,7 +51,7 @@ int main()
 
 
 	/*
-	cout<< "-----while loop sum 1 to n------\n";
+	cout<< "-----sum 1 to n number using while loop------\n";
 
 		int n, i = 1, sum = 0;
 		cout << "Enter number:" << endl;
@@ -67,7 +67,7 @@ int main()
 
 
 /*
-	cout<< "-----while loop sum 1 to n even number------\n";
+	cout<< "----- sum 1 to n even number------\n";
 
 	int n;
 	int i = 2;
@@ -110,7 +110,7 @@ while (i<n)
 
 
 /*
-cout<< "-----ferenhit to celcius conversion------\n";
+
 cout<< "-----ferenhit to celcius conversion------\n";
 float c,f;
 cout<<"temperature in farenhit:"<<endl;
