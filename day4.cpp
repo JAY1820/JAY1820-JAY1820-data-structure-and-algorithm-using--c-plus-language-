@@ -8,7 +8,7 @@ int main()
      * * * *
      * * * *
      */
-    
+    /*
         cout<< "1) Print * 1st pattern row = column\n";
 
 
@@ -29,6 +29,7 @@ int main()
                cout<<endl;
               i= i + 1;
     }
+    */
 
     /*
        1 1 1
@@ -113,99 +114,171 @@ int main()
               7 8 9
            */
 
-          /*
-    cout << "5) pattern 5\n";
+    /*
+cout << "5) pattern 5\n";
 
-    int n;
-    cin >> n;
-    int i = 1;
-    int k = 1;
+int n;
+cin >> n;
+int i = 1;
+int k = 1;
 
-    while (i <= n)
-    {
-        int j = 1; // give column value
-        while (j <= n)
+while (i <= n)
+{
+  int j = 1; // give column value
+  while (j <= n)
+  {
+      cout <<k<<" ";
+      k ++;  //increse the value
+    j = j + 1;
+  }
+  cout<< endl; // go to next line
+  i = i + 1;
+}
+    */
+
+    /*
+    
+                  *
+                  * *
+                  * * *
+                  * * * *
+
+               */
+    /*
+        cout << "6) pattern 6\n";
+
+        int n;
+        cin >> n;
+        int row = 1;;
+
+        while (row <= n)
         {
-            cout <<k<<" ";
-            k ++;  //increse the value 
-          j = j + 1;
+            int col = 1; // give column value
+            while (col <= row)
+            {
+                cout <<"*";
+                col = col + 1;
+            }
+            cout<< endl; // go to next line
+            row = row + 1;
         }
-        cout<< endl; // go to next line
-        i = i + 1;
-    }
-          */
+    */
 
-/*
-              *
-              * *
-              * * *
-              * * * *
+    /*
 
-           */
-/*
-    cout << "6) pattern 6\n";
+    cout << "7) pattern 7\n";
 
-    int n;
-    cin >> n;
-    int row = 1;;
+        int n;
+        cin >> n;
+        int row = 1;
 
-    while (row <= n)
-    {
-        int col = 1; // give column value
-        while (col <= row)
+        while (row <= n)
         {
-            cout <<"*";
-            col = col + 1;
+            int col = 1; // give column value
+            while (col <= row)
+            {
+                cout <<row<<" ";
+                col++;
+            }
+            cout<< endl; // go to next line
+            row = row + 1;
         }
-        cout<< endl; // go to next line
-        row = row + 1;
-    }
+    */
+
+    /*
+        cout << "8) pattern 8 question\n";
+
+        int n;
+        cin >> n;
+        int row = 1;
+        int count = 1;
+
+        while (row <= n)
+        {
+            int col = 1; // give column value
+            while (col <= row)
+            {
+                cout << count << " ";
+                col++;
+                count++;
+            }
+            cout << endl; // go to next line
+            row = row + 1;
+        }
+
+    */
+
+    // cout << "9) pattern 9 question\n";
+    /*
+        int n;
+        cin >> n;
+        int row = 1;
+
+
+        while (row <= n)
+        {
+            int value = row;
+            int col = 1; // give column value
+            while (col <= row)
+            {
+                cout <<col+row-1 << " ";
+                col++;
+                value++;
+            }
+            cout << endl; // go to next line
+            row = row + 1;
+        }
+    */
+
+    // or other method
+    /*
+    int n;
+        cin >> n;
+        int row = 1;
+
+
+        while (row <= n)
+        {
+            // int value = row;
+            int col = 1; // give column value
+            while (col <= row)
+            {
+                cout <<row+col-1 << " ";
+                col++;
+                // value++;
+            }
+            cout << endl; // go to next line
+            row = row + 1;
+        }
+    */
+/*
+         1 
+         2 1
+         3 2 1
+         4 3 2 1 
 */
-
-/*
-
-cout << "7) pattern 7\n";
-
+    cout << "10) pattern 10 question\n";
     int n;
     cin >> n;
     int row = 1;
 
     while (row <= n)
     {
+        // int value = row;
         int col = 1; // give column value
         while (col <= row)
         {
-            cout <<row<<" ";
+            cout << row - col + 1 << " ";
             col++;
+            // value++;
         }
-        cout<< endl; // go to next line
+        cout << endl; // go to next line
         row = row + 1;
     }
-*/
-
-/*
-cout << "8) pattern 8 question\n";
-
-    int n;
-    cin >> n;
-    int row = 1;
-    int count =1;
-
-    while (row <= n)
-    {
-        int col = 1; // give column value
-        while (col <= row)
-        {
-            cout <<count<<" ";
-            col++;
-            count++;
-        }
-        cout<< endl; // go to next line
-        row = row + 1;
-    }
-
-*/
-
 
     return 1;
 }
+
+
+
+
